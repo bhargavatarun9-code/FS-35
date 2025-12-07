@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#strip1 {
+    justify-content: center;
+    gap: 35px;
+    height: 42px;
+    width: 100%;
+    background-color: black;
+    display: flex
+    
+}
+
+#strip1 h4 {
+    color: rgba(255, 255, 255, 0.67);
+    font-size: 12px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 13px;
+
+}
+
+#strip2{
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(34, 31, 31);
+    padding-top: 15px;  
+    display: flex;  
+}
+
+#strip2 h4{
+    color: rgba(255, 255, 255, 0.781);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 5px;
+
+
+}
+
+#strip2 a{
+    color: royalblue;
+    text-decoration: none;
+}
+
+#appleimg{
+    padding-top: 380px;
+    background-position: center;
+   height: 82%;
+   width: 100%;
+   background-color: aqua;
+   background-image: url(https://www.apple.com/v/home/ci/images/heroes/holiday-2025/hero_holiday_2025__gg4r7ioqlj2i_mediumtall.jpg);
+   background-size: 72%
+
+}
+
+#appleimg h3{
+    font-size: 55px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 7px;
+    
+}
+
+#appleimg p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#appleimg button{
+    margin-left: 50%;
+    transform: translate(-60px);
+    margin-top: 10px;
+    background-color: royalblue;
+    border-radius: 50px;
+    padding: 12px 22px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+
+

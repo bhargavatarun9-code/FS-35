@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(https://content.jdmagicbox.com/comp/kolkata/d1/033pxx33.xx33.090525132453.n8d1/catalogue/eden-gardens-stadiums-fort-william-kolkata-stadiums-gdwj2t7kzy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#child1{
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    background-color: bisque;
+    background-image: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/410200/410228.jpg);
+    
+}
+
+#child2{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(31, 21, 8);
+    background-image: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/400800/400850.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#child3{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(231, 7, 37);
+    background-image: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/410000/410033.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+h1{
+    position: absolute;
+    top: 20px;
+    font-size: 75px;
+    color: blue;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    
+}
+
+#child1:hover{
+    height: 500px;
+    width: 400px;
+}
+
+#child2:hover{
+    height: 500px;
+    width: 400px;
+}
+
+#child3:hover{
+    height: 500px;
+    width: 400px;
+}

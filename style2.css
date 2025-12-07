@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#bg{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1542708993627-b6e5bbae43c4?q=80&w=1144&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: bottom;
+    color: darkgreen;
+    font-size: 50px;
+    font-weight: 300px;
+    font-style: oblique;
+    font-family: ink free;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+button{
+    font-size: 20px;
+    background-color: darkolivegreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50px;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+    margin-top: 30px; 
+
+}
